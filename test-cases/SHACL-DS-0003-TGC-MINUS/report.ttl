@@ -2,8 +2,6 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
 
-_:autos512 <http://www.w3.org/ns/shacl-dataset#minus> (<http://example.org/dataGraph1>
-                                                       <http://example.org/dataGraph3>).
 _:autos574 a <http://www.w3.org/ns/shacl#ValidationReport>;
            <http://www.w3.org/ns/shacl#conforms> false;
            <http://www.w3.org/ns/shacl#result> [a <http://www.w3.org/ns/shacl#ValidationResult> ; 
@@ -14,7 +12,7 @@ _:autos574 a <http://www.w3.org/ns/shacl#ValidationReport>;
                                                 <http://www.w3.org/ns/shacl#sourceConstraintComponent> <http://www.w3.org/ns/shacl#MinCountConstraintComponent> ; 
                                                 <http://www.w3.org/ns/shacl#resultPath> <http://xmlns.com/foaf/0.1/knows> ; 
                                                 <http://www.w3.org/ns/shacl-dataset#sourceShapesGraph> <http://example.org/shapeGraphNot1> ; 
-                                                <http://www.w3.org/ns/shacl-dataset#focusGraph> _:autos512],
+                                                <http://www.w3.org/ns/shacl-dataset#focusGraph> <urn:shds:minus%28http%3A%2F%2Fexample.org%2FdataGraph1%2Chttp%3A%2F%2Fexample.org%2FdataGraph3%29>],
                                                [a <http://www.w3.org/ns/shacl#ValidationResult> ; 
                                                 <http://www.w3.org/ns/shacl#resultSeverity> <http://www.w3.org/ns/shacl#Violation> ; 
                                                 <http://www.w3.org/ns/shacl#focusNode> <http://example.org/Bob> ; 
@@ -23,4 +21,4 @@ _:autos574 a <http://www.w3.org/ns/shacl#ValidationReport>;
                                                 <http://www.w3.org/ns/shacl#sourceConstraintComponent> <http://www.w3.org/ns/shacl#MinCountConstraintComponent> ; 
                                                 <http://www.w3.org/ns/shacl#resultPath> <http://xmlns.com/foaf/0.1/knows> ; 
                                                 <http://www.w3.org/ns/shacl-dataset#sourceShapesGraph> <http://example.org/shapeGraphNot1> ; 
-                                                <http://www.w3.org/ns/shacl-dataset#focusGraph> _:autos512].
+                                                <http://www.w3.org/ns/shacl-dataset#focusGraph> <urn:shds:minus%28http%3A%2F%2Fexample.org%2FdataGraph1%2Chttp%3A%2F%2Fexample.org%2FdataGraph3%29>].
