@@ -12,5 +12,4 @@ _:autos507 a <http://www.w3.org/ns/shacl#ValidationReport>;
                                                 <http://www.w3.org/ns/shacl#sourceConstraintComponent> <http://www.w3.org/ns/shacl#MinCountConstraintComponent> ; 
                                                 <http://www.w3.org/ns/shacl#resultPath> <http://xmlns.com/foaf/0.1/knows> ; 
                                                 <http://www.w3.org/ns/shacl-dataset#sourceShapesGraph> <http://example.org/shapeGraphAnd2> ; 
-                                                <http://www.w3.org/ns/shacl-dataset#focusGraph> [<http://www.w3.org/ns/shacl-dataset#and> (<http://example.org/dataGraph1>
-                                                                                                                                           <http://example.org/dataGraph4>)]].
+                                                <http://www.w3.org/ns/shacl-dataset#focusGraph> <urn:shds:and%28http%3A%2F%2Fexample.org%2FdataGraph1%2Chttp%3A%2F%2Fexample.org%2FdataGraph4%29> ].
